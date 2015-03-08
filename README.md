@@ -2,4 +2,4 @@
 
 tripLogger-source
 
-![ツイート画面](https://raw.github.com/wiki/yojio/tripLogger/screenshot/tweet.png)
+![ツイート画面](https://raw.githubusercontent.com/yojio/tripLogger/master/screenshot/tweet.png)
