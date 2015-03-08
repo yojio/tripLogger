@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.yojio.triplog" android:versionName="0.8.1" android:versionCode="31">
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/icon_main_48" android:theme="@style/MyCustomTheme" android:debuggable="true">
+        <!-- メインフォーム -->
+        <activity
+            android:name=".MainForm"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 一覧 -->
+        <activity
+            android:name=".LogListView"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- about -->
+        <activity
+            android:name=".AboutFrm"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- 設定画面 -->
+        <activity
+            android:name=".SettingFrm"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="jp.yojio.triplog" android:host="SettingActivity" />
+            </intent-filter>
+        </activity>
+        <!-- 地図表示 -->
+        <activity
+            android:name=".LogMapView"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchActivity" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <!-- 登録画面 -->
+        <activity
+            android:name=".RegistForm"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/jpeg"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+                <action android:name="android.intent.action.SEND" />
+            </intent-filter>
+        </activity>
+        <!-- イメージプレビュー -->
+        <activity
+            android:name=".ImagePreview"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- データプレビュー -->
+        <activity
+            android:name=".ViewForm"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- 検索画面 -->
+        <activity
+            android:name=".SearchMapForm"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchActivity" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <uses-library android:name="com.google.android.maps"/>
+        <meta-data android:value="a14c76968ab165e" android:name="ADMOB_PUBLISHER_ID"/>
+    </application>
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> <!-- ワイヤレスネットワークによる位置情報取得許可  -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> <!-- ＧＰＳによる位置情報取得許可  -->
+<!--    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>  ＧＰＳによる位置情報取得許可  -->
+    <uses-permission android:name="android.permission.INTERNET"/> <!-- インターネット接続許可-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- ネットワーク状態読み取り許可-->
+    <uses-permission android:name="android.permission.CAMERA"/> <!-- カメラ使用許可-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> <!-- 外部記憶書き込み許可-->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- アカウント情報  -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- 認証  -->
+</manifest>

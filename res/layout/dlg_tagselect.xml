@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dip"
+    >
+    <EditText
+        android:id="@+id/selecttagtext"
+        android:layout_gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text=""
+        android:singleLine="True"
+        android:gravity="left"
+        android:minHeight="50dip"
+    />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:src="@android:drawable/divider_horizontal_dim_dark"
+    ></ImageView>
+    <ListView
+        android:id="@+id/selecttaglist"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000"
+        android:smoothScrollbar="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:choiceMode="multipleChoice"
+        android:layout_weight="1">
+    </ListView>
+</LinearLayout>

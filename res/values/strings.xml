@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">お出かけログ Beta</string>
+<string name="about_name">お出かけログ Betaについて</string>
+<string name="version_name">Version: </string>
+<string name= "copyright_string">Copyright (C) 2010 yojio All Rights Reserved.</string>
+
+<string name="btncapGetGeoLocation">この場所を記録</string>
+<string name="btncapSetLocation">コメント付きで記録</string>
+<string name="btncapSearchLocation2">周辺検索</string>
+
+<string name="capRegistTime">登録時刻：</string>
+<string name="capLocation">場所：</string>
+<string name="txtcapDefAtattchedFile"> × 0</string>
+<string name="txtcapInputComment">コメント</string>
+<string name="txtcapInputTag">タグ：</string>
+
+<string name="capDistanceInfo">全体で約 {0}km</string>
+<string name="capDistanceInfo_p">前の場所まで直線で約 {0}km</string>
+<string name="capDistanceInfo_n">次の場所まで直線で約 {0}km</string>
+
+<string name="capLocationSelect">住所一覧</string>
+<string name="capRegistTimeChange">登録時刻の変更</string>
+<string name="txtcaparound"> 付近</string>
+<string name="btncapSearchLocation">この場所を検索</string>
+<string name="warning_searchAddressRequired">住所を入力してください</string>
+<string name="progressDialog_addressSearchTitle">住所検索</string>
+<string name="progressDialog_addressSearchmsg">検索中...</string>
+<string name="errorDialog_searchResultText">入力された住所は見つかりませんでした。</string>
+<string name="errorDialog_bookmarklistResult">お気に入りが登録されていません。</string>
+<string name="button_close">閉じる</string>
+<string name="location_japan">日本</string>
+<string name="menucap_trash">削除</string>
+<string name="menucap_multiselectmode">複数選択モード</string>
+<string name="menucap_normalmode">通常モード</string>
+<string name="menucap_selectedtrash">データの削除</string>
+<string name="menucap_uploaddata">アップロード</string>
+<string name="menucap_tag">タグの追加</string>
+<string name="menucap_tagtrash">タグ「{0}」の削除</string>
+<string name="menucap_setting">設定</string>
+
+<string name="capLocationSearch">現在地の設定</string>
+<string name="btncapGpsLocation">現在位置</string>
+<string name="btncapSearchmap">地図で探す</string>
+<string name="txtcapDefLocationmsg">場所を指定してください  → </string>
+<string name="txtcapDeftagmsg">未設定 </string>
+
+<string name="menucap_bookmark">お気に入り</string>
+<string name="menucap_bookmark_add">お気に入り登録</string>
+<string name="menucap_bookmark_del">お気に入りの削除</string>
+<string name="menucap_searchmap">検索</string>
+
+<string name="capAttatch">写真の選択</string>
+<string name="btncapInsertPhoto">ギャラリーから</string>
+<string name="btncapTakePhoto">写真を撮影する</string>
+<string name="capNoPhoto">写真の添付 → </string>
+
+<string name="unknown_place">住所が取得できませんでした。</string>
+<string name="registdata_ok">場所を記録しました。</string>
+<string name="registdata_ng">場所の記録に失敗しました。</string>
+<string name="modifydata_ok">内容を変更しました。</string>
+<string name="modifydata_ng">内容の変更に失敗しました。</string>
+<string name="registbookmark_ok">お気に入りに登録しました。</string>
+<string name="registbookmark_ng">お気に入りの登録に失敗しました。</string>
+<string name="registbookmarkdel_ok">お気に入りを削除しました。</string>
+
+<string name="modecaption_multiselectmode">複数選択・削除モード</string>
+
+<string name="capdialog_locationname_change">地名の変更</string>
+<string name="msgdialog_locationname_change">地名を変更しますか？</string>
+<string name="capdialog_yesbutton">はい</string>
+<string name="capdialog_nobutton">いいえ</string>
+<string name="capdialog_okbutton">ＯＫ</string>
+<string name="capdialog_registbutton">登録</string>
+<string name="capdialog_tweetbutton">ツイート</string>
+<string name="capdialog_changebutton">変更</string>
+<string name="capdialog_addbutton">追加</string>
+<string name="capdialog_deletebutton">削除</string>
+<string name="capdialog_editbutton">編集</string>
+<string name="capdialog_closebutton">閉じる</string>
+<string name="capdialog_cancelbutton">キャンセル</string>
+<string name="capdialog_selecttag">タグの選択</string>
+<string name="capdialog_selecthashtag">ハッシュタグの選択</string>
+<string name="capdialog_deletehashtag">ハッシュタグの削除</string>
+<string name="capdialog_nothing">無し</string>
+<string name="capdialog_showmapbutton">地図上で見る</string>
+<string name="capdialog_changedatabutton">データを直す</string>
+<string name="capdialog_viewdatabutton">データを見る</string>
+<string name="capdialog_deletedatabutton">データを削除する</string>
+<string name="capdialog_listitemheader">のデータ</string>
+<string name="capdialog_deletetagbutton">タグを削除する</string>
+<string name="capdialog_selectdatabutton">すべて選択する</string>
+<string name="capdialog_selectdatabutton2">すべて選択解除する</string>
+<string name="capdialog_twitter_oauth">認証</string>
+<string name="capdialog_twitter_oauth_msg">Twitterのサイトに接続します。\n\n現在の認証は初期化されます。</string>
+<string name="capdialog_twitter_send">ツイートの送信</string>
+<string name="capdialog_twitter_hashtag">ハッシュタグ：#</string>
+<string name="capdialog_twitter_image_on">写真を添付する</string>
+<string name="capdialog_twitter_image_off">写真を添付しない</string>
+<string name="capdialog_twitter_location_off">位置情報を添付しない</string>
+<string name="capdialog_twitter_imagesize">元サイズの{0}% ( {1})</string>
+<string name="capdialog_twitter_userid">Twitter-IDの設定</string>
+<string name="capdialog_export_data">SDカードにバックアップ</string>
+<string name="capdialog_import_data">SDカードからレストア</string>
+<string name="capdialog_prividergps">GPSを利用する</string>
+<string name="capdialog_prividernetwork">基地局を利用する</string>
+
+<string name="msg_locationinfo">現在地を特定しています...</string>
+<string name="msg_locationerror">現在地の取得ができませんでした。</string>
+<string name="msg_point2locationerror">住所の変換に失敗しました。</string>
+<string name="msg_connectionerror">ネットワークに接続できません。</string>
+<string name="msg_location_gps">(GPS)</string>
+<string name="msg_location_network">(基地局)</string>
+<string name="msg_setlocation_info">長押しでポイントを変更します。</string>
+<string name="msg_TakePhotoError">写真の保存に失敗しました。</string>
+<string name="msg_deletetag">タグ「{0}」を削除しました。</string>
+<string name="msg_deleteselectitem">選択データを削除しました。</string>
+<string name="msg_addtagselectitem">選択データにタグを追加しました。</string>
+<string name="msg_noselectitem">データが選択されていません。</string>
+<string name="msg_showmaperror_nodata">表示するデータがありません。</string>
+<string name="msg_deletehashtag">選択されたタグを削除します。</string>
+<string name="msg_filecount_over">and more...</string>
+<string name="msg_tweet_sending">ツイート送信中...</string>
+<string name="msg_url_shortlen">URL短縮中...</string>
+<string name="msg_tweet_normalend">送信完了しました。</string>
+<string name="msg_tweet_abnormalend">送信に失敗しました。</string>
+<string name="msg_export_processing">バックアップ中...</string>
+<string name="msg_import_processing">レストア中...</string>
+<string name="msg_export_normalend">バックアップしました。\n  {0}</string>
+<string name="msg_export_abnormalend">バックアップに失敗しました。</string>
+<string name="msg_export_abnormalend_nothing">データが0件でした。\n バックアップを中止します。</string>
+<string name="msg_import_normalend">レストアしました。\n  {0}</string>
+<string name="msg_import_abnormalend">レストアに失敗しました。</string>
+<string name="msg_import_abnormalend_dir">フォルダがありません。\n {0}</string>
+<string name="msg_import_abnormalend_file">ファイルがありません。\n {0}</string>
+<string name="msg_import_abnormalend_nothing">データが0件でした。\n インポートを中止します。</string>
+<string name="msg_network_connecterror">ネットワークに接続できません。\n接続回復後に再実行してください。</string>
+
+<string name= "cap_tab_calender">日付別</string>
+<string name= "cap_tab_group">タグ別</string>
+<string name= "cap_tab_search">データの検索</string>
+<string name= "cap_search_deftext">キーワードを入れてください</string>
+<string name= "cap_search_result">検索結果 {0}件</string>
+
+<string name= "format_calender">yyyy年M月</string>
+<string name= "format_calender_md">d日 (E)</string>
+<string name= "format_calender_hhmm">HH:mm</string>
+<string name= "format_calender_ymdhm">yy/MM/dd\nHH:mm</string>
+<string name= "format_calender_ymdhm2">yy/MM/dd HH:mm</string>
+
+<string name= "setcap_twitter">Twitter設定</string>
+<string name= "setcap_use_twitter">Twitterを使う</string>
+<string name= "setcap_oauth">認証</string>
+<string name= "setcap_oauth_data_ng">未実行</string>
+<string name= "setcap_oauth_data_ok">済み</string>
+<string name= "setcap_contents">コンテンツ</string>
+<string name= "setcap_contents_data_location">場所</string>
+<string name= "setcap_contents_data_comment">コメント</string>
+<string name= "setcap_contents_data_full">場所＋コメント</string>
+<string name= "setcap_upload_pic">写真のアップロード</string>
+<string name= "setcap_upload_pic_data_ok">する</string>
+<string name= "setcap_upload_pic_data_ng">しない</string>
+<string name= "setcap_upload_pic_type">アップロード先</string>
+<string name= "setcap_upload_twitter_id">Twitter-ID：</string>
+<string name= "setcap_upload_pic_size">写真のサイズ</string>
+<string name= "setcap_upload_pic_size_data">最適</string>
+<string name= "setcap_upload_location">位置情報のアップロード</string>
+<string name= "setcap_upload_location_memo">・twitterの設定ページで「位置情報」を有効にしてください。</string>
+<string name= "setcap_upload_location_data_ok">する</string>
+<string name= "setcap_upload_location_data_ng">しない</string>
+<string name= "setcap_auto_location_type">詳細登録時の位置情報</string>
+<string name= "setcap_auto_location_data_auto">自動で取得</string>
+<string name= "setcap_auto_location_data_manual">手動で取得</string>
+<string name= "setcap_location_type">位置情報の取得</string>
+<string name= "setcap_location_data_fine">精度優先(GPS)</string>
+<string name= "setcap_location_data_low">省電力(基地局)</string>
+<string name= "setcap_location_data_low_fine">基地局→GPS</string>
+<string name= "setcap_location_type_memo">長押しでGPS・ネットワーク（基地局）利用設定画面を表示します。</string>
+<string name= "setcap_location_type_memo_fine">GPSを利用して現在位置を特定します。</string>
+<string name= "setcap_location_type_memo_low">基地局の位置情報を利用して現在位置を特定します。</string>
+<string name= "setcap_location_type_memo_low_fine">基地局・GPSの順に現在位置の特定に利用します。</string>
+<string name= "setcap_location_accuracy">位置情報の精度</string>
+<string name= "setcap_location_accuracy_unlimited">設定無し</string>
+<string name= "setcap_location_accuracy_memo">位置情報を取得する際の最低精度を制限します。\n要求された精度に満たない場合があります。</string>
+<string name= "setcap_location_accuracy_unit">{0}以内</string>
+<string name= "setcap_hash_tag"> #odekakelog</string>
+<string name= "setcap_file">バックアップ・レストア</string>
+<string name= "setcap_import">レストア</string>
+<string name= "setcap_importmemo">レストア元( sdcart/xxx/xxx/xxx)</string>
+<string name= "setcap_export">バックアップ</string>
+<string name= "setcap_exportmemo">バックアップ先( sdcart/xxx/xxx/xxx)</string>
+<string name= "setcap_dlg_execute">実行</string>
+<string name= "setcap_dlg_execute_with_image">実行（画像付き）</string>
+<string name= "setcap_dlg_import_path">レストア元( {0} ) </string>
+<string name= "setcap_dlg_export_path">バックアップ先( {0} )</string>
+
+<string name="no_account_found_title">アカウントが見つかりませんでした。</string>
+<string name="no_account_found">ログをアップロードするためのアカウントが見つかりませんでした。</string>
+<string name="choose_account_title">アカウント選択</string>
+<string name="progress_title">お待ちください...</string>
+<string name="tablelist_progress_title">テーブル一覧取得中...</string>
+<string name="tablecheck_progress_title">対象テーブル抽出中...</string>
+<string name="uploadimage_title">写真のアップロード中...</string>
+<string name="uploadlocation_title">位置情報のアップロード中...</string>
+<string name="capdialog_selecttable">保存先の選択</string>
+<string name="cap_makenewtable">新規マップの作成</string>
+<string name="cap_tableselect_descript">選択されたデータをfusion tablesにアップロードします。</string>
+<string name="cap_tableselect_descript2">(アップロード済みのデータが選択されています。)</string>
+<string name="cap_uploadimageon_descript">写真を添付する</string>
+<string name="cap_uploadimageoff_descript">写真を添付しない</string>
+<string name="upload_fail_createtable">テーブルの作成に失敗しました。</string>
+
+<!--fusiontable Column name-->
+<string name="fcol_id">ID</string>
+<string name="fcol_regdate">登録日時</string>
+<string name="fcol_location">位置情報</string>
+<string name="fcol_locationname">場所</string>
+<string name="fcol_tags">タグ</string>
+<string name="fcol_pic1">写真１</string>
+<string name="fcol_pic2">写真２</string>
+<string name="fcol_pic3">写真３</string>
+<string name="fcol_pic4">写真４</string>
+<string name="fcol_pic5">写真５</string>
+<string name="fcol_updatedate">最終更新日時</string>
+<string name="fcol_updateuser">最終更新ユーザー</string>
+<string name="fcol_datelinkcode">データリンクコード</string>
+
+<!-- Common -->
+<string name="no">いいえ</string>
+<string name="yes">はい</string>
+<string name="ok">OK</string>
+<string name="error">エラー</string>
+<string name="success">成功</string>
+<string name="cancel">キャンセル</string>
+<string name="close">閉じる</string>
+<string name="edit">編集</string>
+<string name="save">保存</string>
+
+</resources>
