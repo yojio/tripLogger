@@ -58,8 +58,8 @@ public class MainForm extends LocationBaseForm {
     if (_isDebug) {
       AdManager.setTestDevices(new String[] {
           AdManager.TEST_EMULATOR,
-          "AE48EEBCA03A426ED9AF0493E9CA6CFD",
-          "CF95DC53F383F9A836FD749F3EF439CD"
+          "XXXXXXXXXXXXXXXX",
+          "XXXXXXXXXXXXXXXX"
       });
     }
 

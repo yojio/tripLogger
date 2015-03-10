@@ -148,21 +148,21 @@ public class Const {
   public static final String EDITOR_KEY_VIEW_IMAGEINDEX = "EDITOR_KEY_VIEW_IMAGEINDEX";
 
   // APIキー
-  public static final String MAP_KEY_RELEASE = "0EYuw3eC5XVTyIZN-nS4j_9hB0DEP72PmIiNKFw";
-  public static final String MAP_KEY_DEBUG = "0tJKKEZyE0nzwNgJykx4NYHor9JRFpMAP5MWlRA";
+  public static final String MAP_KEY_RELEASE = "XXXXXXXXXXXXXXXXXX";
+  public static final String MAP_KEY_DEBUG = "XXXXXXXXXXXXXXXXXX";
   // google-API
-  public static final String GOOGLE_API_KEY = "AIzaSyAdUCjeC8lvEW0WXNfIvbma0DsxhV6h-G8";
+  public static final String GOOGLE_API_KEY = "XXXXXXXXXXXXXXXXXX";
   public static final String BIT_LY_USER_ID = "yojio";
-  public static final String BIT_LY_API_KEY = "R_069932ecf8337791b347e0d6d5a82971";
+  public static final String BIT_LY_API_KEY = "XXXXXXXXXXXXXXXXXX";
 
 // hageo_gold
 //  public static final String TWITTER_CUNSUMER_KEY = "DaGOg5a1be7DXaLl2OTvA";
 //  public static final String TWITTER_CONSUMER_SECRET = "NrySWKM7VynURNFktn5PsTSEBTyJK0GHzh6YFaryg";
 // yojio_jp
-  public static final String TWITTER_CUNSUMER_KEY = "GAA5Tf9dIxRy7NfDmF9Myw";
-  public static final String TWITTER_CONSUMER_SECRET = "b4DTEYOFr1CS42JwcNdhv3ieVlGyyMitv71HB3Ki1Wk";
-  public static final String TWITPIC_API_KEY = "fc90f07140f36f38218f2b3e82941a9a";
-  public static final String PLIXI_API_KEY = "46e12e21-5186-4269-bda0-f792da42c74c";
+  public static final String TWITTER_CUNSUMER_KEY = "XXXXXXXXXXXXXXXXXX";
+  public static final String TWITTER_CONSUMER_SECRET = "XXXXXXXXXXXXXXXXXX";
+  public static final String TWITPIC_API_KEY = "XXXXXXXXXXXXXXXXXX";
+  public static final String PLIXI_API_KEY = "XXXXXXXXXXXXXXXXXX";
   public static final String TWITTER_CALLBACK = "jp.yojio.triplog://SettingActivity";
   public static final String TWITTER_REQUEST_TOKEN = "http://twitter.com/oauth/request_token";
   public static final String TWITTER_ACCESS_TOKEN = "http://twitter.com/oauth/access_token";
